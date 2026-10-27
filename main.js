@@ -28,6 +28,7 @@ const total_sp = document.getElementById('cantidad-sp')
 let cant_total = document.getElementById('total-sp')
 const btn_copiarSp = document.getElementById('btn-copiar-sp')
 const btn_retro = document.getElementById('btn-calculo-retro')
+const valor_retro = document.getElementById('importe-retro')
 
 
 
@@ -139,13 +140,14 @@ btn_retro.addEventListener('click', ()=>{
     const marcados = document.querySelectorAll('input[name="mes"]:checked')
     const meses = Array.from(marcados).map(mes => mes.value)
     let incrementos = nomenclador.incrementos_mensuales
-    let valor_base = 16753.86
+    let valor_base = valor_retro.value
     let resultado = 0
+    tabla.innerHTML = ''
     for (let i = 0; i < meses.length; i++) {
         let mes = meses[i]
         let incremento = incrementos[mes];
-        resultado = (valor_base * incremento) + valor_base
-        valor_base = resultado
+        resultado =  Number(valor_base) + (Number(valor_base) * incremento)
+        valor_base = Number(resultado)
         tabla.innerHTML += `<tr>
                                 <td style="text-align: center">${mes}</td>
                                 <td  style="text-align: center">-</td>
