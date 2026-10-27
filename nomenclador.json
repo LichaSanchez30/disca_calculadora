@@ -1,0 +1,1554 @@
+{
+  "nomenclador": "Sistema de Prestaciones Básicas de Atención Integral a favor de las Personas con Discapacidad",
+  "periodo": {
+    "desde": "enero",
+    "hasta": "octubre"
+  },
+  "moneda": "ARS",
+  "adicional_patagonia": 0.2,
+  "incrementos_mensuales": {
+    "febrero": 0.0578,
+    "marzo": 0.029,
+    "abril": 0.034,
+    "mayo": 0.026,
+    "junio": 0.021,
+    "julio": 0.019,
+    "agosto": 0.021,
+    "septiembre": 0.017,
+    "octubre": 0.019
+  },
+  "normas": {
+    "enero": "Valores vigentes antes del aumento de febrero (columna 'vigente' del anexo de la Resolución 340/2026 MS)",
+    "febrero": "Resolución 340/2026 MS",
+    "marzo": "Resolución 13/2026 SND",
+    "abril": "Resolución 41/2026 SND",
+    "mayo": "Resolución 517/2026 SND",
+    "junio": "Resolución 1297/2026 SND",
+    "julio": "Resolución 2227/2026 SND",
+    "agosto": "Resolución 2775/2026 SND",
+    "septiembre": "Resolución 3487/2026 SND",
+    "octubre": "Resolución 1/2026 SSRCYP"
+  },
+  "prestaciones": [
+    {
+      "categoria": "A",
+      "modalidad": "Centro de Día - Jornada Doble",
+      "aranceles": {
+        "enero": 898044.88,
+        "febrero": 949951.87,
+        "marzo": 977500.48,
+        "abril": 1010735.49,
+        "mayo": 1037014.61,
+        "junio": 1058791.92,
+        "julio": 1078908.97,
+        "agosto": 1101566.06,
+        "septiembre": 1120292.68,
+        "octubre": 1141578.24
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Centro de Día - Jornada Simple",
+      "aranceles": {
+        "enero": 477756.04,
+        "febrero": 505370.34,
+        "marzo": 520026.08,
+        "abril": 537706.97,
+        "mayo": 551687.35,
+        "junio": 563272.78,
+        "julio": 573974.97,
+        "agosto": 586028.44,
+        "septiembre": 595990.93,
+        "octubre": 607314.75
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Centro Educativo Terapéutico - Jornada Doble",
+      "aranceles": {
+        "enero": 1008782.83,
+        "febrero": 1067090.47,
+        "marzo": 1098036.1,
+        "abril": 1135369.32,
+        "mayo": 1164888.93,
+        "junio": 1189351.59,
+        "julio": 1211949.28,
+        "agosto": 1237400.21,
+        "septiembre": 1258436.01,
+        "octubre": 1282346.3
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Centro Educativo Terapéutico - Jornada Simple",
+      "aranceles": {
+        "enero": 550919.8,
+        "febrero": 582762.97,
+        "marzo": 599663.1,
+        "abril": 620051.64,
+        "mayo": 636172.98,
+        "junio": 649532.62,
+        "julio": 661873.74,
+        "agosto": 675773.08,
+        "septiembre": 687261.23,
+        "octubre": 700319.19
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Formación Laboral - Jornada Doble",
+      "aranceles": {
+        "enero": 881427.42,
+        "febrero": 932373.92,
+        "marzo": 959412.77,
+        "abril": 992032.8,
+        "mayo": 1017825.65,
+        "junio": 1039199.99,
+        "julio": 1058944.79,
+        "agosto": 1081182.63,
+        "septiembre": 1099562.74,
+        "octubre": 1120454.43
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Formación Laboral - Jornada Simple",
+      "aranceles": {
+        "enero": 479307.16,
+        "febrero": 507011.11,
+        "marzo": 521714.44,
+        "abril": 539452.73,
+        "mayo": 553478.5,
+        "junio": 565101.55,
+        "julio": 575838.48,
+        "agosto": 587931.08,
+        "septiembre": 597925.91,
+        "octubre": 609286.5
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Aprestamiento Laboral - Jornada Doble",
+      "aranceles": {
+        "enero": 881427.42,
+        "febrero": 932373.92,
+        "marzo": 959412.77,
+        "abril": 992032.8,
+        "mayo": 1017825.65,
+        "junio": 1039199.99,
+        "julio": 1058944.79,
+        "agosto": 1081182.63,
+        "septiembre": 1099562.74,
+        "octubre": 1120454.43
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Aprestamiento Laboral - Jornada Simple",
+      "aranceles": {
+        "enero": 479307.16,
+        "febrero": 507011.11,
+        "marzo": 521714.44,
+        "abril": 539452.73,
+        "mayo": 553478.5,
+        "junio": 565101.55,
+        "julio": 575838.48,
+        "agosto": 587931.08,
+        "septiembre": 597925.91,
+        "octubre": 609286.5
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Escolaridad Pre Primaria - Jornada Doble",
+      "aranceles": {
+        "enero": 898783.43,
+        "febrero": 950733.11,
+        "marzo": 978304.37,
+        "abril": 1011566.72,
+        "mayo": 1037867.45,
+        "junio": 1059662.67,
+        "julio": 1079796.26,
+        "agosto": 1102471.98,
+        "septiembre": 1121214.0,
+        "octubre": 1142517.07
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Escolaridad Pre Primaria - Jornada Simple",
+      "aranceles": {
+        "enero": 478442.05,
+        "febrero": 506096.0,
+        "marzo": 520772.79,
+        "abril": 538479.06,
+        "mayo": 552479.52,
+        "junio": 564081.59,
+        "julio": 574799.14,
+        "agosto": 586869.92,
+        "septiembre": 596846.71,
+        "octubre": 608186.79
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Escolaridad Primaria - Jornada Doble",
+      "aranceles": {
+        "enero": 946001.27,
+        "febrero": 1000680.14,
+        "marzo": 1029699.87,
+        "abril": 1064709.66,
+        "mayo": 1092392.11,
+        "junio": 1115332.35,
+        "julio": 1136523.66,
+        "agosto": 1160390.66,
+        "septiembre": 1180117.3,
+        "octubre": 1202539.53
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Escolaridad Primaria - Jornada Simple",
+      "aranceles": {
+        "enero": 478442.05,
+        "febrero": 506096.0,
+        "marzo": 520772.79,
+        "abril": 538479.06,
+        "mayo": 552479.52,
+        "junio": 564081.59,
+        "julio": 574799.14,
+        "agosto": 586869.92,
+        "septiembre": 596846.71,
+        "octubre": 608186.79
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Hogar Permanente",
+      "aranceles": {
+        "enero": 1689196.68,
+        "febrero": 1786832.25,
+        "marzo": 1838650.38,
+        "abril": 1901164.5,
+        "mayo": 1950594.77,
+        "junio": 1991557.26,
+        "julio": 2029396.85,
+        "agosto": 2072014.18,
+        "septiembre": 2107238.43,
+        "octubre": 2147275.96
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Hogar Lunes a Viernes",
+      "aranceles": {
+        "enero": 1307938.01,
+        "febrero": 1383536.82,
+        "marzo": 1423659.39,
+        "abril": 1472063.81,
+        "mayo": 1510337.47,
+        "junio": 1542054.56,
+        "julio": 1571353.59,
+        "agosto": 1604352.02,
+        "septiembre": 1631626.0,
+        "octubre": 1662626.9
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Hogar con CD Lunes a Viernes",
+      "aranceles": {
+        "enero": 2245477.62,
+        "febrero": 2375266.23,
+        "marzo": 2444148.95,
+        "abril": 2527250.01,
+        "mayo": 2592958.51,
+        "junio": 2647410.64,
+        "julio": 2697711.44,
+        "agosto": 2754363.38,
+        "septiembre": 2801187.56,
+        "octubre": 2854410.12
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Hogar con CET Lunes a Viernes",
+      "aranceles": {
+        "enero": 2361085.64,
+        "febrero": 2497556.39,
+        "marzo": 2569985.52,
+        "abril": 2657365.03,
+        "mayo": 2726456.52,
+        "junio": 2783712.11,
+        "julio": 2836602.64,
+        "agosto": 2896171.3,
+        "septiembre": 2945406.21,
+        "octubre": 3001368.93
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Hogar Lunes a Viernes con Formación Laboral",
+      "aranceles": {
+        "enero": 1388391.93,
+        "febrero": 1468640.98,
+        "marzo": 1511231.57,
+        "abril": 1562613.44,
+        "mayo": 1603241.39,
+        "junio": 1636909.46,
+        "julio": 1668010.74,
+        "agosto": 1703038.97,
+        "septiembre": 1731990.63,
+        "octubre": 1764898.45
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Hogar Lunes a Viernes con Pre Primaria",
+      "aranceles": {
+        "enero": 1390633.68,
+        "febrero": 1471012.31,
+        "marzo": 1513671.66,
+        "abril": 1565136.5,
+        "mayo": 1605830.05,
+        "junio": 1639552.48,
+        "julio": 1670703.98,
+        "agosto": 1705788.76,
+        "septiembre": 1734787.17,
+        "octubre": 1767748.13
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Hogar Lunes a Viernes con Primaria",
+      "aranceles": {
+        "enero": 1431939.42,
+        "febrero": 1514705.52,
+        "marzo": 1558631.98,
+        "abril": 1611625.47,
+        "mayo": 1653527.73,
+        "junio": 1688251.82,
+        "julio": 1720328.6,
+        "agosto": 1756455.5,
+        "septiembre": 1786315.24,
+        "octubre": 1820255.23
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Hogar con CD Permanente",
+      "aranceles": {
+        "enero": 2626736.24,
+        "febrero": 2778561.59,
+        "marzo": 2859139.88,
+        "abril": 2956350.64,
+        "mayo": 3033215.75,
+        "junio": 3096913.28,
+        "julio": 3155754.63,
+        "agosto": 3222025.48,
+        "septiembre": 3276799.92,
+        "octubre": 3339059.11
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Hogar con CET Permanente",
+      "aranceles": {
+        "enero": 2742344.33,
+        "febrero": 2900851.83,
+        "marzo": 2984976.53,
+        "abril": 3086465.73,
+        "mayo": 3166713.84,
+        "junio": 3233214.83,
+        "julio": 3294645.91,
+        "agosto": 3363833.48,
+        "septiembre": 3421018.65,
+        "octubre": 3486018.0
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Hogar Permanente con Formación Laboral",
+      "aranceles": {
+        "enero": 1757462.51,
+        "febrero": 1859043.84,
+        "marzo": 1912956.11,
+        "abril": 1977996.62,
+        "mayo": 2029424.53,
+        "junio": 2072042.45,
+        "julio": 2111411.25,
+        "agosto": 2155750.89,
+        "septiembre": 2192398.65,
+        "octubre": 2234054.23
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Hogar Permanente con Pre Primaria",
+      "aranceles": {
+        "enero": 1757440.65,
+        "febrero": 1859020.72,
+        "marzo": 1912932.32,
+        "abril": 1977972.02,
+        "mayo": 2029399.29,
+        "junio": 2072016.67,
+        "julio": 2111384.99,
+        "agosto": 2155724.08,
+        "septiembre": 2192371.39,
+        "octubre": 2234026.44
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Hogar Permanente con Primaria",
+      "aranceles": {
+        "enero": 1802194.49,
+        "febrero": 1906361.33,
+        "marzo": 1961645.81,
+        "abril": 2028341.77,
+        "mayo": 2081078.65,
+        "junio": 2124781.31,
+        "julio": 2165152.15,
+        "agosto": 2210620.35,
+        "septiembre": 2248200.89,
+        "octubre": 2290916.71
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Pequeño Hogar Lunes a Viernes",
+      "aranceles": {
+        "enero": 1003657.39,
+        "febrero": 1061668.79,
+        "marzo": 1092457.19,
+        "abril": 1129600.73,
+        "mayo": 1158970.35,
+        "junio": 1183308.73,
+        "julio": 1205791.59,
+        "agosto": 1231113.22,
+        "septiembre": 1252042.14,
+        "octubre": 1275830.94
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Pequeño Hogar Permanente",
+      "aranceles": {
+        "enero": 1278365.24,
+        "febrero": 1352254.75,
+        "marzo": 1391470.14,
+        "abril": 1438780.12,
+        "mayo": 1476188.4,
+        "junio": 1507188.36,
+        "julio": 1535824.94,
+        "agosto": 1568077.26,
+        "septiembre": 1594734.58,
+        "octubre": 1625034.53
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Residencia Lunes a Viernes",
+      "aranceles": {
+        "enero": 897021.15,
+        "febrero": 948868.97,
+        "marzo": 976386.17,
+        "abril": 1009583.3,
+        "mayo": 1035832.47,
+        "junio": 1057584.95,
+        "julio": 1077679.06,
+        "agosto": 1100310.32,
+        "septiembre": 1119015.6,
+        "octubre": 1140276.89
+      }
+    },
+    {
+      "categoria": "A",
+      "modalidad": "Residencia Permanente",
+      "aranceles": {
+        "enero": 1100184.67,
+        "febrero": 1163775.34,
+        "marzo": 1197524.83,
+        "abril": 1238240.67,
+        "mayo": 1270434.93,
+        "junio": 1297114.06,
+        "julio": 1321759.23,
+        "agosto": 1349516.17,
+        "septiembre": 1372457.95,
+        "octubre": 1398534.65
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Centro de Día - Jornada Doble",
+      "aranceles": {
+        "enero": 754315.47,
+        "febrero": 797914.9,
+        "marzo": 821054.44,
+        "abril": 848970.29,
+        "mayo": 871043.52,
+        "junio": 889335.43,
+        "julio": 906232.8,
+        "agosto": 925263.69,
+        "septiembre": 940993.17,
+        "octubre": 958872.04
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Centro de Día - Jornada Simple",
+      "aranceles": {
+        "enero": 401997.51,
+        "febrero": 425232.97,
+        "marzo": 437564.72,
+        "abril": 452441.92,
+        "mayo": 464205.41,
+        "junio": 473953.73,
+        "julio": 482958.85,
+        "agosto": 493100.98,
+        "septiembre": 501483.7,
+        "octubre": 511011.89
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Centro Educativo Terapéutico - Jornada Doble",
+      "aranceles": {
+        "enero": 846949.14,
+        "febrero": 895902.8,
+        "marzo": 921883.98,
+        "abril": 953228.03,
+        "mayo": 978011.96,
+        "junio": 998550.21,
+        "julio": 1017522.67,
+        "agosto": 1038890.64,
+        "septiembre": 1056551.78,
+        "octubre": 1076626.27
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Centro Educativo Terapéutico - Jornada Simple",
+      "aranceles": {
+        "enero": 462395.52,
+        "febrero": 489121.98,
+        "marzo": 503306.52,
+        "abril": 520418.94,
+        "mayo": 533949.83,
+        "junio": 545162.78,
+        "julio": 555520.87,
+        "agosto": 567186.81,
+        "septiembre": 576828.99,
+        "octubre": 587788.74
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Formación Laboral - Jornada Doble",
+      "aranceles": {
+        "enero": 741051.98,
+        "febrero": 783884.79,
+        "marzo": 806617.45,
+        "abril": 834042.44,
+        "mayo": 855727.54,
+        "junio": 873697.82,
+        "julio": 890298.08,
+        "agosto": 908994.34,
+        "septiembre": 924447.24,
+        "octubre": 942011.74
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Formación Laboral - Jornada Simple",
+      "aranceles": {
+        "enero": 402981.8,
+        "febrero": 426274.15,
+        "marzo": 438636.1,
+        "abril": 453549.73,
+        "mayo": 465342.02,
+        "junio": 475114.2,
+        "julio": 484141.37,
+        "agosto": 494308.34,
+        "septiembre": 502711.58,
+        "octubre": 512263.1
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Aprestamiento Laboral - Jornada Doble",
+      "aranceles": {
+        "enero": 741051.98,
+        "febrero": 783884.79,
+        "marzo": 806617.45,
+        "abril": 834042.44,
+        "mayo": 855727.54,
+        "junio": 873697.82,
+        "julio": 890298.08,
+        "agosto": 908994.34,
+        "septiembre": 924447.24,
+        "octubre": 942011.74
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Aprestamiento Laboral - Jornada Simple",
+      "aranceles": {
+        "enero": 402981.8,
+        "febrero": 426274.15,
+        "marzo": 438636.1,
+        "abril": 453549.73,
+        "mayo": 465342.02,
+        "junio": 475114.2,
+        "julio": 484141.37,
+        "agosto": 494308.34,
+        "septiembre": 502711.58,
+        "octubre": 512263.1
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Escolaridad Pre Primaria - Jornada Doble",
+      "aranceles": {
+        "enero": 754985.31,
+        "febrero": 798623.47,
+        "marzo": 821783.55,
+        "abril": 849724.19,
+        "mayo": 871817.02,
+        "junio": 890125.17,
+        "julio": 907037.55,
+        "agosto": 926085.34,
+        "septiembre": 941828.79,
+        "octubre": 959723.54
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Escolaridad Pre Primaria - Jornada Simple",
+      "aranceles": {
+        "enero": 401997.51,
+        "febrero": 425232.97,
+        "marzo": 437564.72,
+        "abril": 452441.92,
+        "mayo": 464205.41,
+        "junio": 473953.73,
+        "julio": 482958.85,
+        "agosto": 493100.98,
+        "septiembre": 501483.7,
+        "octubre": 511011.89
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Escolaridad Primaria - Jornada Doble",
+      "aranceles": {
+        "enero": 794648.84,
+        "febrero": 840579.55,
+        "marzo": 864956.35,
+        "abril": 894364.87,
+        "mayo": 917618.36,
+        "junio": 936888.34,
+        "julio": 954689.22,
+        "agosto": 974737.69,
+        "septiembre": 991308.23,
+        "octubre": 1010143.09
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Escolaridad Primaria - Jornada Simple",
+      "aranceles": {
+        "enero": 401997.51,
+        "febrero": 425232.97,
+        "marzo": 437564.72,
+        "abril": 452441.92,
+        "mayo": 464205.41,
+        "junio": 473953.73,
+        "julio": 482958.85,
+        "agosto": 493100.98,
+        "septiembre": 501483.7,
+        "octubre": 511011.89
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Hogar Permanente",
+      "aranceles": {
+        "enero": 1418474.56,
+        "febrero": 1500462.39,
+        "marzo": 1543975.8,
+        "abril": 1596470.97,
+        "mayo": 1637979.22,
+        "junio": 1672376.78,
+        "julio": 1704151.94,
+        "agosto": 1739939.13,
+        "septiembre": 1769518.1,
+        "octubre": 1803138.94
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Hogar Lunes a Viernes",
+      "aranceles": {
+        "enero": 1099256.62,
+        "febrero": 1162793.65,
+        "marzo": 1196514.67,
+        "abril": 1237196.17,
+        "mayo": 1269363.27,
+        "junio": 1296019.9,
+        "julio": 1320644.28,
+        "agosto": 1348377.81,
+        "septiembre": 1371300.23,
+        "octubre": 1397354.93
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Hogar con CD Lunes a Viernes",
+      "aranceles": {
+        "enero": 1886745.81,
+        "febrero": 1995799.72,
+        "marzo": 2053677.91,
+        "abril": 2123502.96,
+        "mayo": 2178714.04,
+        "junio": 2224467.03,
+        "julio": 2266731.91,
+        "agosto": 2314333.28,
+        "septiembre": 2353676.94,
+        "octubre": 2398396.8
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Hogar con CET Lunes a Viernes",
+      "aranceles": {
+        "enero": 1983453.38,
+        "febrero": 2098096.98,
+        "marzo": 2158941.79,
+        "abril": 2232345.81,
+        "mayo": 2290386.8,
+        "junio": 2338484.93,
+        "julio": 2382916.14,
+        "agosto": 2432957.38,
+        "septiembre": 2474317.66,
+        "octubre": 2521329.69
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Hogar Lunes a Viernes con Formación Laboral",
+      "aranceles": {
+        "enero": 1166433.71,
+        "febrero": 1233853.58,
+        "marzo": 1269635.33,
+        "abril": 1312802.93,
+        "mayo": 1346935.81,
+        "junio": 1375221.46,
+        "julio": 1401350.67,
+        "agosto": 1430779.03,
+        "septiembre": 1455102.28,
+        "octubre": 1482749.22
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Hogar Lunes a Viernes con Pre Primaria",
+      "aranceles": {
+        "enero": 1168591.3,
+        "febrero": 1236135.88,
+        "marzo": 1271983.82,
+        "abril": 1315231.27,
+        "mayo": 1349427.29,
+        "junio": 1377765.26,
+        "julio": 1403942.8,
+        "agosto": 1433425.6,
+        "septiembre": 1457793.83,
+        "octubre": 1485491.92
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Hogar Lunes a Viernes con Primaria",
+      "aranceles": {
+        "enero": 1203302.11,
+        "febrero": 1272852.97,
+        "marzo": 1309765.7,
+        "abril": 1354297.74,
+        "mayo": 1389509.48,
+        "junio": 1418689.18,
+        "julio": 1445644.27,
+        "agosto": 1476002.8,
+        "septiembre": 1501094.85,
+        "octubre": 1529615.65
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Hogar con CD Permanente",
+      "aranceles": {
+        "enero": 2205963.8,
+        "febrero": 2333468.51,
+        "marzo": 2401139.1,
+        "abril": 2482777.83,
+        "mayo": 2547330.05,
+        "junio": 2600823.98,
+        "julio": 2650239.64,
+        "agosto": 2705894.67,
+        "septiembre": 2751894.88,
+        "octubre": 2804180.88
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Hogar con CET Permanente",
+      "aranceles": {
+        "enero": 2302671.31,
+        "febrero": 2435765.71,
+        "marzo": 2506402.92,
+        "abril": 2591620.62,
+        "mayo": 2659002.75,
+        "junio": 2714841.81,
+        "julio": 2766423.81,
+        "agosto": 2824518.71,
+        "septiembre": 2872535.53,
+        "octubre": 2927113.7
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Hogar Permanente con Formación Laboral",
+      "aranceles": {
+        "enero": 1474992.85,
+        "febrero": 1560247.44,
+        "marzo": 1605494.61,
+        "abril": 1660081.43,
+        "mayo": 1703243.55,
+        "junio": 1739011.66,
+        "julio": 1772052.88,
+        "agosto": 1809265.99,
+        "septiembre": 1840023.52,
+        "octubre": 1874983.96
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Hogar Permanente con Pre Primaria",
+      "aranceles": {
+        "enero": 1475905.34,
+        "febrero": 1561212.67,
+        "marzo": 1606487.83,
+        "abril": 1661108.42,
+        "mayo": 1704297.24,
+        "junio": 1740087.48,
+        "julio": 1773149.14,
+        "agosto": 1810385.27,
+        "septiembre": 1841161.82,
+        "octubre": 1876143.9
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Hogar Permanente con Primaria",
+      "aranceles": {
+        "enero": 1513489.3,
+        "febrero": 1600968.98,
+        "marzo": 1647397.08,
+        "abril": 1703408.59,
+        "mayo": 1747697.21,
+        "junio": 1784398.85,
+        "julio": 1818302.43,
+        "agosto": 1856486.78,
+        "septiembre": 1888047.05,
+        "octubre": 1923919.95
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Pequeño Hogar Lunes a Viernes",
+      "aranceles": {
+        "enero": 843828.2,
+        "febrero": 892601.47,
+        "marzo": 918486.91,
+        "abril": 949715.47,
+        "mayo": 974408.07,
+        "junio": 994870.64,
+        "julio": 1013773.18,
+        "agosto": 1035062.42,
+        "septiembre": 1052658.48,
+        "octubre": 1072658.99
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Pequeño Hogar Permanente",
+      "aranceles": {
+        "enero": 1023847.95,
+        "febrero": 1083026.36,
+        "marzo": 1114434.12,
+        "abril": 1152324.88,
+        "mayo": 1182285.33,
+        "junio": 1207113.32,
+        "julio": 1230048.48,
+        "agosto": 1255879.49,
+        "septiembre": 1277229.45,
+        "octubre": 1301496.81
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Residencia Lunes a Viernes",
+      "aranceles": {
+        "enero": 745566.23,
+        "febrero": 788659.96,
+        "marzo": 811531.1,
+        "abril": 839123.15,
+        "mayo": 860940.36,
+        "junio": 879020.1,
+        "julio": 895721.48,
+        "agosto": 914531.64,
+        "septiembre": 930078.67,
+        "octubre": 947750.17
+      }
+    },
+    {
+      "categoria": "B",
+      "modalidad": "Residencia Permanente",
+      "aranceles": {
+        "enero": 923984.71,
+        "febrero": 977391.03,
+        "marzo": 1005735.37,
+        "abril": 1039930.37,
+        "mayo": 1066968.56,
+        "junio": 1089374.9,
+        "julio": 1110073.02,
+        "agosto": 1133384.56,
+        "septiembre": 1152652.09,
+        "octubre": 1174552.48
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Centro de Día - Jornada Doble",
+      "aranceles": {
+        "enero": 574371.88,
+        "febrero": 607570.58,
+        "marzo": 625190.12,
+        "abril": 646446.59,
+        "mayo": 663254.2,
+        "junio": 677182.54,
+        "julio": 690049.0,
+        "agosto": 704540.03,
+        "septiembre": 716517.21,
+        "octubre": 730131.04
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Centro de Día - Jornada Simple",
+      "aranceles": {
+        "enero": 306345.04,
+        "febrero": 324051.78,
+        "marzo": 333449.28,
+        "abril": 344786.56,
+        "mayo": 353751.01,
+        "junio": 361179.78,
+        "julio": 368042.2,
+        "agosto": 375771.08,
+        "septiembre": 382159.19,
+        "octubre": 389420.22
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Centro Educativo Terapéutico - Jornada Doble",
+      "aranceles": {
+        "enero": 646098.84,
+        "febrero": 683443.35,
+        "marzo": 703263.21,
+        "abril": 727174.16,
+        "mayo": 746080.69,
+        "junio": 761748.38,
+        "julio": 776221.6,
+        "agosto": 792522.25,
+        "septiembre": 805995.13,
+        "octubre": 821309.04
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Centro Educativo Terapéutico - Jornada Simple",
+      "aranceles": {
+        "enero": 353082.57,
+        "febrero": 373490.74,
+        "marzo": 384321.97,
+        "abril": 397388.92,
+        "mayo": 407721.03,
+        "junio": 416283.17,
+        "julio": 424192.55,
+        "agosto": 433100.6,
+        "septiembre": 440463.31,
+        "octubre": 448832.11
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Formación Laboral - Jornada Doble",
+      "aranceles": {
+        "enero": 564635.38,
+        "febrero": 597271.3,
+        "marzo": 614592.17,
+        "abril": 635488.3,
+        "mayo": 652011.0,
+        "junio": 665703.23,
+        "julio": 678351.59,
+        "agosto": 692596.98,
+        "septiembre": 704371.12,
+        "octubre": 717754.18
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Formación Laboral - Jornada Simple",
+      "aranceles": {
+        "enero": 306553.6,
+        "febrero": 324272.4,
+        "marzo": 333676.3,
+        "abril": 345021.29,
+        "mayo": 353991.85,
+        "junio": 361425.67,
+        "julio": 368292.76,
+        "agosto": 376026.91,
+        "septiembre": 382419.37,
+        "octubre": 389685.34
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Aprestamiento Laboral - Jornada Doble",
+      "aranceles": {
+        "enero": 564635.38,
+        "febrero": 597271.3,
+        "marzo": 614592.17,
+        "abril": 635488.3,
+        "mayo": 652011.0,
+        "junio": 665703.23,
+        "julio": 678351.59,
+        "agosto": 692596.98,
+        "septiembre": 704371.12,
+        "octubre": 717754.18
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Aprestamiento Laboral - Jornada Simple",
+      "aranceles": {
+        "enero": 306553.6,
+        "febrero": 324272.4,
+        "marzo": 333676.3,
+        "abril": 345021.29,
+        "mayo": 353991.85,
+        "junio": 361425.67,
+        "julio": 368292.76,
+        "agosto": 376026.91,
+        "septiembre": 382419.37,
+        "octubre": 389685.34
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Escolaridad Pre Primaria - Jornada Doble",
+      "aranceles": {
+        "enero": 574897.69,
+        "febrero": 608126.78,
+        "marzo": 625762.45,
+        "abril": 647038.38,
+        "mayo": 663861.37,
+        "junio": 677802.46,
+        "julio": 690680.71,
+        "agosto": 705185.0,
+        "septiembre": 717173.15,
+        "octubre": 730799.44
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Escolaridad Pre Primaria - Jornada Simple",
+      "aranceles": {
+        "enero": 306345.04,
+        "febrero": 324051.78,
+        "marzo": 333449.28,
+        "abril": 344786.56,
+        "mayo": 353751.01,
+        "junio": 361179.78,
+        "julio": 368042.2,
+        "agosto": 375771.08,
+        "septiembre": 382159.19,
+        "octubre": 389420.22
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Escolaridad Primaria - Jornada Doble",
+      "aranceles": {
+        "enero": 605100.27,
+        "febrero": 640075.06,
+        "marzo": 658637.24,
+        "abril": 681030.91,
+        "mayo": 698737.71,
+        "junio": 713411.2,
+        "julio": 726966.01,
+        "agosto": 742232.3,
+        "septiembre": 754850.25,
+        "octubre": 769192.4
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Escolaridad Primaria - Jornada Simple",
+      "aranceles": {
+        "enero": 306345.04,
+        "febrero": 324051.78,
+        "marzo": 333449.28,
+        "abril": 344786.56,
+        "mayo": 353751.01,
+        "junio": 361179.78,
+        "julio": 368042.2,
+        "agosto": 375771.08,
+        "septiembre": 382159.19,
+        "octubre": 389420.22
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Hogar Permanente",
+      "aranceles": {
+        "enero": 1128101.66,
+        "febrero": 1193305.94,
+        "marzo": 1227911.81,
+        "abril": 1269660.81,
+        "mayo": 1302671.99,
+        "junio": 1330028.1,
+        "julio": 1355298.64,
+        "agosto": 1383759.91,
+        "septiembre": 1407283.83,
+        "octubre": 1434022.22
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Hogar Lunes a Viernes",
+      "aranceles": {
+        "enero": 875589.98,
+        "febrero": 926199.08,
+        "marzo": 953058.86,
+        "abril": 985462.86,
+        "mayo": 1011084.89,
+        "junio": 1032317.68,
+        "julio": 1051931.71,
+        "agosto": 1074022.28,
+        "septiembre": 1092280.66,
+        "octubre": 1113033.99
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Hogar con CD Lunes a Viernes",
+      "aranceles": {
+        "enero": 1475221.92,
+        "febrero": 1560489.75,
+        "marzo": 1605743.95,
+        "abril": 1660339.24,
+        "mayo": 1703508.06,
+        "junio": 1739281.73,
+        "julio": 1772328.09,
+        "agosto": 1809546.98,
+        "septiembre": 1840309.28,
+        "octubre": 1875275.15
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Hogar con CET Lunes a Viernes",
+      "aranceles": {
+        "enero": 1550103.26,
+        "febrero": 1639699.23,
+        "marzo": 1687250.51,
+        "abril": 1744617.03,
+        "mayo": 1789977.07,
+        "junio": 1827566.59,
+        "julio": 1862290.35,
+        "agosto": 1901398.45,
+        "septiembre": 1933722.22,
+        "octubre": 1970462.95
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Hogar Lunes a Viernes con Formación Laboral",
+      "aranceles": {
+        "enero": 887953.06,
+        "febrero": 939276.74,
+        "marzo": 966515.77,
+        "abril": 999377.3,
+        "mayo": 1025361.11,
+        "junio": 1046893.7,
+        "julio": 1066784.68,
+        "agosto": 1089187.16,
+        "septiembre": 1107703.34,
+        "octubre": 1128749.7
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Hogar Lunes a Viernes con Pre Primaria",
+      "aranceles": {
+        "enero": 907901.13,
+        "febrero": 960377.82,
+        "marzo": 988228.77,
+        "abril": 1021828.55,
+        "mayo": 1048396.1,
+        "junio": 1070412.41,
+        "julio": 1090750.25,
+        "agosto": 1113656.0,
+        "septiembre": 1132588.16,
+        "octubre": 1154107.33
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Hogar Lunes a Viernes con Primaria",
+      "aranceles": {
+        "enero": 934868.6,
+        "febrero": 988904.0,
+        "marzo": 1017582.22,
+        "abril": 1052180.01,
+        "mayo": 1079536.69,
+        "junio": 1102206.96,
+        "julio": 1123148.9,
+        "agosto": 1146735.02,
+        "septiembre": 1166229.52,
+        "octubre": 1188387.88
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Hogar con CD Permanente",
+      "aranceles": {
+        "enero": 1727733.67,
+        "febrero": 1827596.67,
+        "marzo": 1880596.98,
+        "abril": 1944537.27,
+        "mayo": 1995095.24,
+        "junio": 2036992.24,
+        "julio": 2075695.09,
+        "agosto": 2119284.69,
+        "septiembre": 2155312.53,
+        "octubre": 2196263.47
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Hogar con CET Permanente",
+      "aranceles": {
+        "enero": 1802615.01,
+        "febrero": 1906806.15,
+        "marzo": 1962103.53,
+        "abril": 2028815.05,
+        "mayo": 2081564.24,
+        "junio": 2125277.09,
+        "julio": 2165657.36,
+        "agosto": 2211136.16,
+        "septiembre": 2248725.48,
+        "octubre": 2291451.26
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Hogar Permanente con Formación Laboral",
+      "aranceles": {
+        "enero": 1123696.03,
+        "febrero": 1188645.66,
+        "marzo": 1223116.38,
+        "abril": 1264702.34,
+        "mayo": 1297584.6,
+        "junio": 1324833.88,
+        "julio": 1350005.72,
+        "agosto": 1378355.84,
+        "septiembre": 1401787.89,
+        "octubre": 1428421.86
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Hogar Permanente con Pre Primaria",
+      "aranceles": {
+        "enero": 1125151.8,
+        "febrero": 1190185.58,
+        "marzo": 1224700.96,
+        "abril": 1266340.79,
+        "mayo": 1299265.65,
+        "junio": 1326550.23,
+        "julio": 1351754.68,
+        "agosto": 1380141.53,
+        "septiembre": 1403603.94,
+        "octubre": 1430272.41
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Hogar Permanente con Primaria",
+      "aranceles": {
+        "enero": 1153804.05,
+        "febrero": 1220493.93,
+        "marzo": 1255888.25,
+        "abril": 1298588.45,
+        "mayo": 1332351.75,
+        "junio": 1360331.14,
+        "julio": 1386177.43,
+        "agosto": 1415287.16,
+        "septiembre": 1439347.04,
+        "octubre": 1466694.63
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Pequeño Hogar Lunes a Viernes",
+      "aranceles": {
+        "enero": 776593.39,
+        "febrero": 821480.49,
+        "marzo": 845303.42,
+        "abril": 874043.74,
+        "mayo": 896768.87,
+        "junio": 915601.02,
+        "julio": 932997.44,
+        "agosto": 952590.39,
+        "septiembre": 968784.42,
+        "octubre": 987191.33
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Pequeño Hogar Permanente",
+      "aranceles": {
+        "enero": 1002791.35,
+        "febrero": 1060752.69,
+        "marzo": 1091514.51,
+        "abril": 1128626.01,
+        "mayo": 1157970.28,
+        "junio": 1182287.66,
+        "julio": 1204751.13,
+        "agosto": 1230050.9,
+        "septiembre": 1250961.76,
+        "octubre": 1274730.04
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Residencia Lunes a Viernes",
+      "aranceles": {
+        "enero": 689102.75,
+        "febrero": 728932.88,
+        "marzo": 750071.94,
+        "abril": 775574.38,
+        "mayo": 795739.32,
+        "junio": 812449.84,
+        "julio": 827886.39,
+        "agosto": 845272.01,
+        "septiembre": 859641.63,
+        "octubre": 875974.82
+      }
+    },
+    {
+      "categoria": "C",
+      "modalidad": "Residencia Permanente",
+      "aranceles": {
+        "enero": 854222.54,
+        "febrero": 903596.6,
+        "marzo": 929800.9,
+        "abril": 961414.13,
+        "mayo": 986410.9,
+        "junio": 1007125.53,
+        "julio": 1026260.91,
+        "agosto": 1047812.39,
+        "septiembre": 1065625.2,
+        "octubre": 1085872.08
+      }
+    },
+    {
+      "categoria": "única",
+      "modalidad": "Estimulación Temprana",
+      "aranceles": {
+        "enero": 338467.81,
+        "febrero": 358031.25,
+        "marzo": 368414.15,
+        "abril": 380940.23,
+        "mayo": 390844.68,
+        "junio": 399052.42,
+        "julio": 406634.41,
+        "agosto": 415173.74,
+        "septiembre": 422231.69,
+        "octubre": 430254.09
+      }
+    },
+    {
+      "categoria": "única",
+      "modalidad": "Prestación de Apoyo",
+      "aranceles": {
+        "enero": 16753.78,
+        "febrero": 17722.15,
+        "marzo": 18236.09,
+        "abril": 18856.12,
+        "mayo": 19346.37,
+        "junio": 19752.65,
+        "julio": 20127.95,
+        "agosto": 20550.64,
+        "septiembre": 20900.0,
+        "octubre": 21297.1
+      }
+    },
+    {
+      "categoria": "única",
+      "modalidad": "Módulo Maestro de Apoyo",
+      "aranceles": {
+        "enero": 399110.13,
+        "febrero": 422178.7,
+        "marzo": 434421.88,
+        "abril": 449192.22,
+        "mayo": 460871.22,
+        "junio": 470549.52,
+        "julio": 479489.96,
+        "agosto": 489559.25,
+        "septiembre": 497881.75,
+        "octubre": 507341.51
+      }
+    },
+    {
+      "categoria": "única",
+      "modalidad": "Maestro de Apoyo",
+      "aranceles": {
+        "enero": 13099.59,
+        "febrero": 13856.75,
+        "marzo": 14258.59,
+        "abril": 14743.39,
+        "mayo": 15126.71,
+        "junio": 15444.38,
+        "julio": 15737.82,
+        "agosto": 16068.31,
+        "septiembre": 16341.47,
+        "octubre": 16651.96
+      }
+    },
+    {
+      "categoria": "única",
+      "modalidad": "Módulo de Apoyo a la Integración Escolar (SAIE)",
+      "aranceles": {
+        "enero": 617279.49,
+        "febrero": 652958.24,
+        "marzo": 671894.03,
+        "abril": 694738.43,
+        "mayo": 712801.63,
+        "junio": 727770.46,
+        "julio": 741598.1,
+        "agosto": 757171.66,
+        "septiembre": 770043.58,
+        "octubre": 784674.41
+      }
+    },
+    {
+      "categoria": "única",
+      "modalidad": "Rehabilitación - Módulo Integral Intensivo",
+      "aranceles": {
+        "enero": 147409.8,
+        "febrero": 155930.08,
+        "marzo": 160452.05,
+        "abril": 165907.42,
+        "mayo": 170221.02,
+        "junio": 173795.66,
+        "julio": 177097.78,
+        "agosto": 180816.83,
+        "septiembre": 183890.72,
+        "octubre": 187384.64
+      }
+    },
+    {
+      "categoria": "única",
+      "modalidad": "Rehabilitación - Módulo Integral Simple",
+      "aranceles": {
+        "enero": 88668.35,
+        "febrero": 93793.38,
+        "marzo": 96513.38,
+        "abril": 99794.84,
+        "mayo": 102389.51,
+        "junio": 104539.68,
+        "julio": 106525.94,
+        "agosto": 108762.98,
+        "septiembre": 110611.95,
+        "octubre": 112713.58
+      }
+    },
+    {
+      "categoria": "única",
+      "modalidad": "Rehabilitación - Hospital de Día - Jornada Simple",
+      "aranceles": {
+        "enero": 530060.83,
+        "febrero": 560698.35,
+        "marzo": 576958.6,
+        "abril": 596575.19,
+        "mayo": 612086.15,
+        "junio": 624939.96,
+        "julio": 636813.81,
+        "agosto": 650186.9,
+        "septiembre": 661240.08,
+        "octubre": 673803.64
+      }
+    },
+    {
+      "categoria": "única",
+      "modalidad": "Rehabilitación - Hospital de Día - Jornada Doble",
+      "aranceles": {
+        "enero": 857228.86,
+        "febrero": 906776.68,
+        "marzo": 933073.21,
+        "abril": 964797.7,
+        "mayo": 989882.44,
+        "junio": 1010669.97,
+        "julio": 1029872.7,
+        "agosto": 1051500.03,
+        "septiembre": 1069375.53,
+        "octubre": 1089693.66
+      }
+    },
+    {
+      "categoria": "única",
+      "modalidad": "Rehabilitación - Internación",
+      "aranceles": {
+        "enero": 4795395.88,
+        "febrero": 5072569.76,
+        "marzo": 5219674.29,
+        "abril": 5397143.21,
+        "mayo": 5537468.93,
+        "junio": 5653755.78,
+        "julio": 5761177.14,
+        "agosto": 5882161.86,
+        "septiembre": 5982158.61,
+        "octubre": 6095819.63
+      }
+    },
+    {
+      "categoria": "única",
+      "modalidad": "Transporte (por km)",
+      "aranceles": {
+        "enero": 733.73,
+        "febrero": 776.14,
+        "marzo": 798.65,
+        "abril": 825.8,
+        "mayo": 847.27,
+        "junio": 865.07,
+        "julio": 881.5,
+        "agosto": 900.01,
+        "septiembre": 915.31,
+        "octubre": 932.7
+      }
+    }
+  ]
+}

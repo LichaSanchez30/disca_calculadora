@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Legales calculadora</title>
+  </head>
+  <body>
+    <div class="cont-principal">
+      <h1 class="titulo">
+        <i class="fa-solid fa-calculator"></i> CALCULADORA LEGALES
+      </h1>
+      <p>Ingresá el monto una vez y obtené los tres cálculos al instante.</p>
+    </div>
+    <div class="prestacion">
+      <p>Seleccionar prestacion</p>
+      <div class="opciones">
+        <select id="prestaciones"></select>
+        <select id="categoria">
+          <option value="única">-</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+        </select>
+      </div>
+    </div>
+    <div class="cont-calculos">
+      <div class="cal-proporcional">
+        <h3>
+          <i class="fa-regular fa-calendar-days"></i> PROPORCIONAL POR DÍAS:
+        </h3>
+        <div class="calculadora">
+          <label for="">Fecha inicio:</label>
+          <input type="date" id="fecha-inicio" />
+          <label for="">Fecha fin:</label>
+          <input type="date" id="fecha-fin" />
+          <div class="contenedor-btn">
+            <button class="btn" id="btn-calculo">Cacular</button>
+            <button class="btn" id="btn-copiar">Copiar resultado</button>
+          </div>
+        </div>
+        <h3 class="total">
+          Total: <i class="fa-solid fa-dollar-sign"></i><span id="total"></span>
+        </h3>
+      </div>
+      <div class="cal-proporcional">
+        <h3><i class="fa-regular fa-clock"></i> VALOR HORA:</h3>
+        <div class="calculadora">
+          <div class="dias">
+            <label for="">Cant. de días del mes:</label>
+            <input type="number" class="valor" id="total_dias" />
+          </div>
+          <div class="horas">
+            <label for="">Cant. hs semanales:</label>
+            <input type="number" class="valor" id="total_hs" />
+          </div>
+          <div class="contenedor-btn">
+            <button class="btn" id="btn-hora">Cacular</button>
+            <button class="btn" id="btn-copiar-hora">Copiar resultado</button>
+          </div>
+        </div>
+        <h3 class="total">
+          Total: <i class="fa-solid fa-dollar-sign"></i
+          ><span id="valor_hora"></span>
+        </h3>
+      </div>
+
+      <div class="cal-proporcional">
+        <h3><i class="fa-solid fa-percent"></i> DE LA PRESTACIÓN:</h3>
+        <div class="calculadora">
+          <div class="dias">
+            <label for="">% a calcular:</label>
+            <input type="number" class="valor" id="porcentaje" />
+          </div>
+          <div class="contenedor-btn">
+            <button class="btn" id="btn-porcetaje">Cacular</button>
+            <button class="btn" id="btn-copiar-porcentaje">
+              Copiar resultado
+            </button>
+          </div>
+        </div>
+        <h3 class="total">
+          Total: <i class="fa-solid fa-dollar-sign"></i
+          ><span id="valor_porcentaje"></span>
+        </h3>
+      </div>
+    </div>
+    <br>
+    <div class="antecedentes">
+      <table>
+        <caption>
+          Historico valores 2026
+        </caption>
+        <thead>
+          <tr>
+            <th style="width: 100px;;"  scope="col">Mes</th>
+            <th  style="width: 450px;" scope="col">Prestacion</th>
+            <th  style="width: 100px;" scope="col">Categoria</th>
+            <th  style="width: 150px;" scope="col">Importe</th>
+          </tr>
+        </thead>
+
+        <tbody id="valores-antecedentes">
+
+        </tbody>
+      </table>
+    </div>
+
+
+    <script
+      src="https://kit.fontawesome.com/ef83b7174f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

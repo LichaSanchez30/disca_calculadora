@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: #1B2430;
+}
+body{
+    width: 90%;
+    margin: 20px auto;
+    background-color: #F4F6F8;
+}
+
+.titulo{
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+.prestacion{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+.prestacion p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.prestacion select{
+    width: 400px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+#categoria{
+    width: 100px;
+}
+
+input{
+    margin: 10px;
+    width: max-content;
+}
+.btn{
+    padding: 2px;
+    border: solid 1px #0F766E;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    background-color: #0F766E;
+    color: white;
+    border: 1px solid white;
+}
+.cont-calculos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cal-proporcional{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border: solid 1px #0c284e;
+    width: 350px;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+.calculadora{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.total{
+    width: 200px;
+}
+
+.valor{
+    width: 70px;
+}
