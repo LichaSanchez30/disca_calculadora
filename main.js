@@ -143,10 +143,11 @@ btn_retro.addEventListener('click', ()=>{
     let valor_base = valor_retro.value
     let resultado = 0
     tabla.innerHTML = ''
+
     for (let i = 0; i < meses.length; i++) {
         let mes = meses[i]
         let incremento = incrementos[mes];
-        resultado =  Number(valor_base) + (Number(valor_base) * incremento)
+        resultado =  (Number(valor_base) * incremento) + Number(valor_base)
         valor_base = resultado
         tabla.innerHTML += `<tr>
                                 <td style="text-align: center">${mes}</td>
