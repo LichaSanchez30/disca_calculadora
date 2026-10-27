@@ -31,6 +31,7 @@
         </select>
       </div>
     </div>
+
     <div class="cont-calculos">
       <div class="cal-proporcional">
         <h3>
@@ -50,6 +51,7 @@
           Total: <i class="fa-solid fa-dollar-sign"></i><span id="total"></span>
         </h3>
       </div>
+
       <div class="cal-proporcional">
         <h3><i class="fa-regular fa-clock"></i> VALOR HORA:</h3>
         <div class="calculadora">
@@ -89,6 +91,37 @@
         <h3 class="total">
           Total: <i class="fa-solid fa-dollar-sign"></i
           ><span id="valor_porcentaje"></span>
+        </h3>
+      </div>
+
+      <div class="cal-proporcional">
+        <h3>CALCULO DE SESIONES / PAÑALES:</h3>
+        <div>
+          <label for="">
+          <input type="radio" name="tipo" value="sesiones" id="sesion" checked="True" >
+          Sesiones
+          </label>
+          <label for="" >
+          <input type="radio" name="tipo" value="paniales" id="paneales" >
+          Pañales
+          </label>
+        </div>
+        <div class="calculadora">
+          <label for="">Fecha inicio:</label>
+          <input type="date" id="fecha-inicio-sp" />
+          <label for="">Fecha fin:</label>
+          <input type="date" id="fecha-fin-sp" />
+          <div class="sp">
+          <label for="" id="text-cantidad">Sesiones sem.</label>
+          <input style="width: 50px;" type="number" id="cantidad-sp" />
+          </div>
+          <div class="contenedor-btn">
+            <button class="btn" id="btn-calculo-SP">Cacular</button>
+            <button class="btn" id="btn-copiar-sp">Copiar resultado</button>
+          </div>
+        </div>
+        <h3 class="total" style="font-size: 15px; width: 250px;">
+          Total por periodo: <span id="total-sp"></span>
         </h3>
       </div>
     </div>

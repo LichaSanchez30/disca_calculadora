@@ -18,8 +18,15 @@ let valor_porcentaje = document.getElementById('valor_porcentaje')
 let copiar_valorPorcentaje = document.getElementById('btn-copiar-porcentaje')
 let tabla = document.getElementById('valores-antecedentes')
 let total_horas = document.getElementById('total_hs')
-
-
+let btn_sp = document.getElementById('btn-calculo-SP')
+let paniales = document.getElementById('paneales')
+let sesiones = document.getElementById('sesion')
+const fecha_inicio_sp = document.getElementById("fecha-inicio-sp")
+const fecha_fin_sp = document.getElementById("fecha-fin-sp")
+const tipo_entrada = document.getElementById('text-cantidad')
+const total_sp = document.getElementById('cantidad-sp')
+const cant_total = document.getElementById('total-sp')
+const btn_copiarSp = document.getElementById('btn-copiar-sp')
 
 prestacionesDatos.forEach(element => {
     const option = document.createElement("option");
@@ -83,6 +90,7 @@ btn_copiar.addEventListener('click',()=>{
     navigator.clipboard.writeText(total.textContent)
 })
 
+
 btn_calculo.addEventListener('click', ()=>{
     let valor_prestacion = prestacionesDatos.filter(pres => pres.modalidad == prestaciones.value && pres.categoria == categoriaPres.value)
     const fechaIn = fecha_inicio.value
@@ -93,6 +101,29 @@ btn_calculo.addEventListener('click', ()=>{
     total.textContent = resultado.toFixed(2)
 })
 
+paniales.addEventListener('click', ()=>{
+    tipo_entrada.textContent = "Pañales diarios"
+})
+
+sesiones.addEventListener('click', ()=>{
+    tipo_entrada.textContent = "Sesiones sem. "
+})
 
 
+let resultado = 0
+btn_sp.addEventListener('click',()=>{
+    const fechaIn = fecha_inicio_sp.value
+    const fechaFin = fecha_fin_sp.value
+    const total_dias = (new Date(fechaFin)-new Date(fechaIn)) / (60*60*24*1000)
+    if(paniales.checked){
+        resultado = total_sp.value * (total_dias + 1)
+        cant_total.textContent = `${resultado} pañales `
+    }else if(sesiones.checked){
+        resultado = total_sp.value * ((total_dias + 1)/7)
+        cant_total.textContent = `${Math.round(resultado)} sesiones`
+    }
+})
 
+btn_copiarSp.addEventListener('click',()=>{
+    navigator.clipboard.writeText(Math.round(resultado))
+})
