@@ -25,7 +25,7 @@ const fecha_inicio_sp = document.getElementById("fecha-inicio-sp")
 const fecha_fin_sp = document.getElementById("fecha-fin-sp")
 const tipo_entrada = document.getElementById('text-cantidad')
 const total_sp = document.getElementById('cantidad-sp')
-const cant_total = document.getElementById('total-sp')
+let cant_total = document.getElementById('total-sp')
 const btn_copiarSp = document.getElementById('btn-copiar-sp')
 
 prestacionesDatos.forEach(element => {
@@ -101,15 +101,6 @@ btn_calculo.addEventListener('click', ()=>{
     total.textContent = resultado.toFixed(2)
 })
 
-paniales.addEventListener('click', ()=>{
-    tipo_entrada.textContent = "Pañales diarios"
-    cant_total.textContent = " "
-})
-
-sesiones.addEventListener('click', ()=>{
-    tipo_entrada.textContent = "Sesiones sem. "
-    cant_total.textContent = " "
-})
 
 
 let resultado = 0
@@ -128,4 +119,14 @@ btn_sp.addEventListener('click',()=>{
 
 btn_copiarSp.addEventListener('click',()=>{
     navigator.clipboard.writeText(Math.round(resultado))
+})
+
+paniales.addEventListener('click', ()=>{
+    tipo_entrada.textContent = "Pañales diarios"
+    cant_total.textContent = 0
+})
+
+sesiones.addEventListener('click', ()=>{
+    tipo_entrada.textContent = "Sesiones sem. "
+    cant_total.textContent = 0
 })
