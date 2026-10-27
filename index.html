@@ -124,6 +124,34 @@
           Total por periodo: <span id="total-sp"></span>
         </h3>
       </div>
+            
+      <div class="cal-proporcional">
+        <h3>AUMENTOS RETROACTIVOS:</h3>
+        <div style="display: grid; grid-template-columns: 90px 90px 90px; grid-template-rows: 30px 30px 30px 30px;">
+          <label for="" style="display: flex; align-items: center;"><input type="checkbox" name="mes" value="enero"> Enero</label>
+          <label for="" style="display: flex; align-items: center;"><input type="checkbox" name="mes" value="febrero"> Febrero</label>
+          <label for="" style="display: flex; align-items: center;"><input type="checkbox" name="mes" value="marzo"> Marzo</label>
+          <label for="" style="display: flex; align-items: center;"><input type="checkbox" name="mes" value="abril"> Abril</label>
+          <label for="" style="display: flex; align-items: center;"><input type="checkbox" name="mes" value="mayo"> Mayo</label>
+          <label for="" style="display: flex; align-items: center;"><input type="checkbox" name="mes" value="junio"> Junio</label>
+          <label for="" style="display: flex; align-items: center;"><input type="checkbox" name="mes" value="julio"> Julio</label>
+          <label for="" style="display: flex; align-items: center;"><input type="checkbox" name="mes" value="agosto"> Agosto</label>
+          <label for="" style="display: flex; align-items: center;"><input type="checkbox" name="mes" value="septiembre"> Septiembre</label>
+          <label for="" style="display: flex; align-items: center;"><input type="checkbox" name="mes" value="octubre"> Octubre</label>
+        </div>
+        <div class="importe">
+          <label for="" id="text-cantidad">Importe:</label>
+          <input style="width: 100px;" type="number" id="importe" />
+          </div>
+          <div class="contenedor-btn">
+            <button class="btn" id="btn-calculo-retro">Cacular</button>
+            <button class="btn" id="btn-copiar-retro">Copiar resultado</button>
+          </div>
+          <h3 class="total" style="font-size: 15px; margin-top: 20px;">
+            Total octubre: <span id="total-retro"></span>
+          </h3>
+        </div>
+      </div>
     </div>
     <br>
     <div class="antecedentes">

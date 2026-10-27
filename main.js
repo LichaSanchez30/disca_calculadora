@@ -27,6 +27,9 @@ const tipo_entrada = document.getElementById('text-cantidad')
 const total_sp = document.getElementById('cantidad-sp')
 let cant_total = document.getElementById('total-sp')
 const btn_copiarSp = document.getElementById('btn-copiar-sp')
+const btn_retro = document.getElementById('btn-calculo-retro')
+
+
 
 prestacionesDatos.forEach(element => {
     const option = document.createElement("option");
@@ -129,4 +132,27 @@ paniales.addEventListener('click', ()=>{
 sesiones.addEventListener('click', ()=>{
     tipo_entrada.textContent = "Sesiones sem. "
     cant_total.textContent = 0
+})
+
+
+btn_retro.addEventListener('click', ()=>{
+    const marcados = document.querySelectorAll('input[name="mes"]:checked')
+    const meses = Array.from(marcados).map(mes => mes.value)
+    let incrementos = nomenclador.incrementos_mensuales
+    let valor_base = 16753.86
+    let resultado = 0
+    for (let i = 0; i < meses.length; i++) {
+        let mes = meses[i]
+        let incremento = incrementos[mes];
+        resultado = (valor_base * incremento) + valor_base
+        valor_base = resultado
+        tabla.innerHTML += `<tr>
+                                <td style="text-align: center">${mes}</td>
+                                <td  style="text-align: center">-</td>
+                                <td  style="text-align: center">-</td>
+                                <td  style="text-align: center">$${resultado.toFixed(2)}</td>
+                            </tr>`
+}
+
+    
 })
