@@ -29,6 +29,7 @@ let cant_total = document.getElementById('total-sp')
 const btn_copiarSp = document.getElementById('btn-copiar-sp')
 const btn_retro = document.getElementById('btn-calculo-retro')
 const valor_retro = document.getElementById('importe-retro')
+const total_retro = document.getElementById('total-retro')
 
 
 
@@ -156,4 +157,6 @@ btn_retro.addEventListener('click', ()=>{
                                 <td  style="text-align: center">$${resultado.toFixed(2)}</td>
                             </tr>` 
     }
+
+    total_retro.innerHTML = `Total ${meses.at(-1)}: <i class="fa-solid fa-dollar-sign"></i><span >${resultado.toFixed(2)}</span>`
 })
