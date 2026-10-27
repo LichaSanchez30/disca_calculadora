@@ -116,9 +116,11 @@ btn_sp.addEventListener('click',()=>{
     const fechaFin = fecha_fin_sp.value
     const total_dias = (new Date(fechaFin)-new Date(fechaIn)) / (60*60*24*1000)
     if(paniales.checked){
+        cant_total.textContent = ""
         resultado = total_sp.value * (total_dias + 1)
         cant_total.textContent = `${resultado} pañales `
     }else if(sesiones.checked){
+        cant_total.textContent = ""
         resultado = total_sp.value * ((total_dias + 1)/7)
         cant_total.textContent = `${Math.round(resultado)} sesiones`
     }
