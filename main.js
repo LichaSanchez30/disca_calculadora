@@ -153,8 +153,6 @@ btn_retro.addEventListener('click', ()=>{
                                 <td  style="text-align: center">-</td>
                                 <td  style="text-align: center">-</td>
                                 <td  style="text-align: center">$${resultado.toFixed(2)}</td>
-                            </tr>`
-}
-
-    
+                            </tr>` 
+    }
 })
